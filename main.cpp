@@ -35,7 +35,7 @@ int main()
 		ShellExecute(NULL, "open", ttsDirectory.c_str(), NULL, NULL, 1);
 		SystemParametersInfo( SPI_SETDESKWALLPAPER, 0, (PVOID)pictureDirectory.c_str(), SPIF_UPDATEINIFILE );
 	
-		MessageBox(NULL, "COOOOOOOON!!!", "Oops (;", NULL);
+		MessageBox(NULL, "RACOOOOOOOON!!!", "Oops (;", NULL);
 	}
 	
 	else {
