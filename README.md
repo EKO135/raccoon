@@ -3,7 +3,7 @@ raccoon malware
 
 simply compile with g++
 ```
-g++ main.cpp -o abc
+g++ main.cpp -o main
 g++ dropper.cpp -o game
 ```
 ### note:
